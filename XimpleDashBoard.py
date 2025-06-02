@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Configuración general
+# Configuración de la página
 st.set_page_config(layout="wide")
 st.title("Dashboard de Préstamos - Ximple")
 
