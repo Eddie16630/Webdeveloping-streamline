@@ -9,7 +9,7 @@ st.title("Dashboard de Préstamos - Ximple")
 # Carga de datos
 @st.cache_data
 def load_data():
-    return pd.read_csv("/Users/ras/Downloads/df_merged.csv")
+    return pd.read_csv("df_merged.csv")
 
 df = load_data()
 
